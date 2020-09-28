@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from PIL import Image
 import pytesseract
 import argparse
