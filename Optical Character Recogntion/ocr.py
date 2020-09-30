@@ -8,7 +8,7 @@ import os
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image",required="True",help="image") 	
+ap.add_argument("-i", "--image",required=False,default="img/example_01.png",help="image") 	
 ap.add_argument("-p", "--preprocess", type=str, default="thresh",
 	help="type of preprocessing to be done")
 args = vars(ap.parse_args())
